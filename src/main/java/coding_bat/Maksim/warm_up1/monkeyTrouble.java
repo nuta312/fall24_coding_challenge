@@ -1,4 +1,4 @@
-package coding_bat.nuta.warm_up1;
+package coding_bat.Maksim.warm_up1;
 
 public class monkeyTrouble {
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
