@@ -1,4 +1,4 @@
-package coding_bat.arsen;
+package coding_bat.arsenK;
 
 public class sleepIn {
     public boolean sleepIn(boolean weekday, boolean vacation) {

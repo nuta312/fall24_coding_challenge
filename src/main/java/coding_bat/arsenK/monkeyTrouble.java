@@ -1,4 +1,4 @@
-package coding_bat.arsen;
+package coding_bat.arsenK;
 
 public class monkeyTrouble {
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
