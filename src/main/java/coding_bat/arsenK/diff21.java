@@ -1,4 +1,4 @@
-package coding_bat.arsen;
+package coding_bat.arsenK;
 
 public class diff21 {
     public int diff21(int n) {
