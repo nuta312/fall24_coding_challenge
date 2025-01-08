@@ -1,6 +1,6 @@
 package coding_bat.aiperiishenbekkyzy.logic_1;
 
-public class ciigarParty {
+public class cigarParty {
     public boolean cigarParty(int cigars, boolean isWeekend) {
         if (isWeekend) {
             return cigars >= 40;  // No upper limit on the weekend
