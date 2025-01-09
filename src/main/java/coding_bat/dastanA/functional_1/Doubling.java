@@ -1,6 +1,5 @@
 package coding_bat.dastanA.functional_1;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
