@@ -1,14 +1,14 @@
 package coding_bat.arsen.D.warm_up2;
 
 public class StringTimes {
-
     public String stringTimes(String str, int n) {
-        String result = "";
-        for (int i=0; i<n; i++) {
-            result = result + str;  // could use += here
+        StringBuilder sb = new StringBuilder();
+        if(str.length()>0){
+            for(int a=0; a<n;a++){
+                sb.append(str);
+
+            }
         }
-        return result;
-
+        return sb.toString();
     }
-
 }
