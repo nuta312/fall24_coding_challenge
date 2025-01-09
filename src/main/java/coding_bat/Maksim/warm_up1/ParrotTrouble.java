@@ -1,7 +1,7 @@
 package coding_bat.Maksim.warm_up1;
 
-public class parrotTrouble {
+public class ParrotTrouble {
     public boolean parrotTrouble(boolean talking, int hour) {
-    return ((hour < 7 || hour > 20)&&talking);
-}
+        return talking && (hour < 7 || hour > 20);
+    }
 }
