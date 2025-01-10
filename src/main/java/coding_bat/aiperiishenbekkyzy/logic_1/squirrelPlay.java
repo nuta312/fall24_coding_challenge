@@ -2,17 +2,16 @@ package coding_bat.aiperiishenbekkyzy.logic_1;
 
 public class squirrelPlay {
     public boolean squirrelPlay(int temp, boolean isSummer) {
-        if (isSummer && temp <= 100 && temp >= 60)
-
-            return true;
-
-        if (!(isSummer) && temp <= 90 && temp >= 60)
-
-            return true;
-
-        else
-
-            return false;
-
+        if(isSummer == false) {
+            if(temp >= 60 && temp <= 90) {
+                return true;
+            }
+        }
+        if(isSummer == true) {
+            if(temp >= 60 && temp <= 100) {
+                return true;
+            }
+        }
+        return false;
     }
 }
