@@ -1,6 +1,6 @@
 package coding_bat.aju;
 
-public class NumberTwo {
+public class NumberThree {
 
 
 
