@@ -8,7 +8,7 @@ public class NoX {
         List<String> withoutX = strings.stream()
                 .map(n -> n.replace("x",""))
                 .collect(Collectors.toList());
-        return strings;
+        return withoutX;
     }
 
 

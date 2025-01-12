@@ -9,7 +9,7 @@ public class AddStar {
                                 .map(n -> n + "*")
                                 .collect(Collectors.toList());
 
-        return strings;
+        return addStar;
     }
 
 

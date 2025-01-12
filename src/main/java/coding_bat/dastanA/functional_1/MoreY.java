@@ -8,7 +8,7 @@ public class MoreY {
         List<String> addY = strings.stream()
                             .map(n -> "y" + n + "y")
                             .collect(Collectors.toList());
-        return strings;
+        return addY;
 
     }
     public List<String> moreY2(List<String> strings) {

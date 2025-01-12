@@ -8,7 +8,7 @@ public class Math1 {
         List<Integer> math = nums.stream()
                 .map(n -> (n+1) * 10)
                 .collect(Collectors.toList());
-        return nums;
+        return math;
     }
 
     public List<Integer> math11(List<Integer> numbers) {
