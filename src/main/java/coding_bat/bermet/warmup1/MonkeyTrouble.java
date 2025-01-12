@@ -1,4 +1,4 @@
-package coding_bat.bermet_warm_up1;
+package coding_bat.bermet.warmup1;
 
 public class MonkeyTrouble {
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
