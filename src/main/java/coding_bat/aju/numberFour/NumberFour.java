@@ -1,4 +1,4 @@
-package coding_bat.aju;
+package coding_bat.aju.numberFour;
 
 public class NumberFour {
     public int[] frontPiece(int[] nums) {
