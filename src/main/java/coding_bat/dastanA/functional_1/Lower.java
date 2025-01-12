@@ -5,10 +5,10 @@ import java.util.stream.Collectors;
 
 public class Lower {
     public List<String> lower1(List<String> strings) {
-        List<String> lower = strings.stream()
+        List<String> lowerCase = strings.stream()
                 .map(n -> n.toLowerCase())
                 .collect(Collectors.toList());
-        return strings;
+        return lowerCase;
     }
 
     public List<String> lower2(List<String> strings) {

@@ -8,7 +8,7 @@ public class Copies3 {
         List<String> threeCopies = strings.stream()
                 .map(n -> n + n + n)
                 .collect(Collectors.toList());
-        return strings;
+        return threeCopies;
     }
 
     public List<String> copies33(List<String> strings) {

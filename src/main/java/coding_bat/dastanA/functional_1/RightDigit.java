@@ -8,7 +8,7 @@ public class RightDigit {
         List<Integer> rightDigit = nums.stream()
                 .map(n -> n % 10)
                 .collect(Collectors.toList());
-        return nums;
+        return rightDigit;
     }
 
     public List<Integer> rightDigit2(List<Integer> numbers) {
