@@ -2,16 +2,11 @@ package coding_bat.akylai.functional_2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class NoYY {
     public List<String> noYY(List<String> strings) {
-        List<String> list = new ArrayList<>();
-        for (String word : strings){
-            String newWord = word + "y";
-            if (!newWord.contains("yy")){
-                list.add(newWord);
-            }
-        }
-        return list;
+        return strings.stream().map(str -> str + "y").
+                filter(str -> !str.contains("yy")).collect(Collectors.toList());
     }
 }
