@@ -1,13 +1,17 @@
 package coding_bat.aiperiKasymova.warm_up1;
+
 public class ParrotTrouble {
-    public boolean posNeg(int a, int b, boolean negative) {
-        if (negative) {
-            return (a < 0 && b < 0);
+
+    public boolean parrotTrouble(boolean talking, int hour) {
+        if (talking && (hour < 7 || hour > 20))
+            return true;
+
+        return false;
+
+   
         }
-        else {
-            return ((a < 0 && b > 0) || (a > 0 && b < 0));
-        }
+
     }
-}
+
    
   
